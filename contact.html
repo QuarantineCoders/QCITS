@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Contact — QCITS</title>
+  <meta name="description" content="Get in touch with QCITS. Tell us about your project and we'll respond within 24 hours."/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+</head>
+<body>
+<nav id="main-nav"></nav>
+<div class="mobile-menu" id="mobile-menu"></div>
+
+<div class="page-hero">
+  <div class="page-hero-tag">Let's Talk</div>
+  <h1>Start a <span>conversation</span></h1>
+  <p>Tell us what you need. We'll respond within 24 hours with thoughts and a rough plan — no cost, no commitment.</p>
+</div>
+
+<section>
+  <div class="section-inner">
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="section-eyebrow">Get in Touch</div>
+        <h2 class="contact-info" style="font-size:1.6rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:0.75rem;">We're based in <span style="color:var(--accent-purple)">Colombo</span>,<br>we work everywhere</h2>
+        <p style="color:var(--text-secondary);line-height:1.75;font-size:0.9rem;margin-bottom:1.5rem;">Whether you need a website, a mobile app, or a full AI system — we'd love to hear about your project. Even if you're not sure what you need yet, reach out and we'll help you figure it out.</p>
+
+        <div class="contact-detail">
+          <div class="contact-icon">✉</div>
+          <div>Email us at <a href="mailto:hello@qcits.space">hello@qcits.space</a></div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon">⌂</div>
+          <div>Colombo, Sri Lanka 🇱🇰</div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon">⏱</div>
+          <div>We reply within 24 hours</div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon">GH</div>
+          <div><a href="https://github.com/QuarantineCoders" target="_blank" rel="noopener">github.com/QuarantineCoders</a></div>
+        </div>
+
+        <div style="margin-top:2rem;padding:1.25rem;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);">
+          <p style="font-family:var(--font-mono);font-size:0.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.75rem;">Response time promise</p>
+          <p style="font-size:0.88rem;color:var(--text-secondary);line-height:1.7;">We read every message ourselves. You'll always get a reply from a real person, not a bot — usually within a few hours during business hours.</p>
+        </div>
+      </div>
+
+      <div class="contact-form reveal">
+        <p style="font-family:var(--font-mono);font-size:0.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:1.25rem;">Tell us about your project</p>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your name</label>
+            <input type="text" placeholder="Kasun Perera"/>
+          </div>
+          <div class="form-group">
+            <label>Email address</label>
+            <input type="email" placeholder="kasun@company.lk"/>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Company / Organisation (optional)</label>
+          <input type="text" placeholder="Your company name"/>
+        </div>
+        <div class="form-group">
+          <label>Service you're interested in</label>
+          <select>
+            <option value="">Select a service...</option>
+            <option>Web Development</option>
+            <option>System Development</option>
+            <option>Mobile App Development</option>
+            <option>Web Hosting</option>
+            <option>SEO</option>
+            <option>Graphic Design</option>
+            <option>AI / ML Development</option>
+            <option>Custom AI Augmentation</option>
+            <option>Brand Marketing</option>
+            <option>Multiple services / Not sure</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Budget range</label>
+          <select>
+            <option value="">Select a range...</option>
+            <option>Under $500</option>
+            <option>$500 – $2,000</option>
+            <option>$2,000 – $5,000</option>
+            <option>$5,000 – $15,000</option>
+            <option>$15,000+</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Tell us about your project</label>
+          <textarea placeholder="What are you building? What problem does it solve? What's your timeline?"></textarea>
+        </div>
+        <button class="btn btn-primary" style="width:100%;justify-content:center;" onclick="handleSubmit(this)">Send Message →</button>
+        <p style="font-size:0.75rem;color:var(--text-muted);margin-top:0.75rem;text-align:center;">We reply within 24 hours. Your info is never shared.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="main-footer"></footer>
+<script src="js/main.js"></script>
+<script>
+  initNav('contact.html');
+  initFooter();
+
+  function handleSubmit(btn) {
+    btn.textContent = 'Message sent ✓';
+    btn.style.background = 'var(--accent-cyan)';
+    btn.style.color = '#000';
+    btn.disabled = true;
+  }
+</script>
+</body>
+</html>

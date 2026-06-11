@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Portfolio — QCITS</title>
+  <meta name="description" content="Work we've done — web apps, mobile apps, AI systems, and brand projects from QCITS."/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+</head>
+<body>
+<nav id="main-nav"></nav>
+<div class="mobile-menu" id="mobile-menu"></div>
+
+<div class="page-hero">
+  <div class="page-hero-tag">Our Work</div>
+  <h1>Projects we're <span>proud of</span></h1>
+  <p>A selection of work across web, mobile, AI, and design. Every project here solved a real problem for a real business.</p>
+</div>
+
+<section>
+  <div class="section-inner">
+    <div class="filter-bar reveal" id="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="mobile">Mobile</button>
+      <button class="filter-btn" data-filter="ai">AI / ML</button>
+      <button class="filter-btn" data-filter="design">Design</button>
+    </div>
+    <div class="portfolio-grid" id="portfolio-grid">
+
+      <div class="portfolio-card reveal" data-category="web">
+        <div class="portfolio-thumb">🛒</div>
+        <div class="portfolio-info">
+          <h3>FreshMart — E-commerce Platform</h3>
+          <p>Full-stack grocery e-commerce with real-time inventory, delivery slot booking, and a vendor management portal.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Next.js</span><span class="tech-tag">Node.js</span><span class="tech-tag">PostgreSQL</span><span class="tech-tag">Stripe</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal" data-category="mobile">
+        <div class="portfolio-thumb">🚗</div>
+        <div class="portfolio-info">
+          <h3>RideLink — Ride Hailing App</h3>
+          <p>Flutter app for a local ride-hailing startup. Driver and passenger apps with real-time tracking and payments.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Flutter</span><span class="tech-tag">Firebase</span><span class="tech-tag">Google Maps API</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal" data-category="ai">
+        <div class="portfolio-thumb">🧠</div>
+        <div class="portfolio-info">
+          <h3>DocuSense — Document Intelligence</h3>
+          <p>AI-powered document processing system for a legal firm. Extracts clauses, flags risks, and summarises contracts automatically.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span><span class="tech-tag">LangChain</span><span class="tech-tag">Pinecone</span><span class="tech-tag">React</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal" data-category="web">
+        <div class="portfolio-thumb">🏨</div>
+        <div class="portfolio-info">
+          <h3>StayNow — Hotel Booking System</h3>
+          <p>Custom booking engine replacing a legacy system. 3x faster load time. Integrated with channel managers and payment gateways.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Laravel</span><span class="tech-tag">Vue.js</span><span class="tech-tag">MySQL</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal" data-category="ai">
+        <div class="portfolio-thumb">📊</div>
+        <div class="portfolio-info">
+          <h3>SalesIQ — Predictive Analytics Dashboard</h3>
+          <p>ML-powered sales forecasting tool for a retail chain. Predicts monthly revenue by product category with 89% accuracy.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span><span class="tech-tag">scikit-learn</span><span class="tech-tag">FastAPI</span><span class="tech-tag">React</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal" data-category="design">
+        <div class="portfolio-thumb">✦</div>
+        <div class="portfolio-info">
+          <h3>Ceylonica — Brand Identity</h3>
+          <p>Complete brand identity for a Sri Lankan tea export company. Logo, packaging, brand guidelines, and website design.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Figma</span><span class="tech-tag">Illustrator</span><span class="tech-tag">Packaging Design</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal" data-category="mobile">
+        <div class="portfolio-thumb">🍔</div>
+        <div class="portfolio-info">
+          <h3>QuickEats — Food Delivery App</h3>
+          <p>Cross-platform food delivery app for a local restaurant group. 3,000+ active users in the first month after launch.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">React Native</span><span class="tech-tag">Node.js</span><span class="tech-tag">Stripe</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal" data-category="web">
+        <div class="portfolio-thumb">⚕</div>
+        <div class="portfolio-info">
+          <h3>MediTrack — Patient Management System</h3>
+          <p>Web-based clinic management system with appointment booking, patient records, and billing — built for a small hospital group.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Django</span><span class="tech-tag">React</span><span class="tech-tag">PostgreSQL</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section style="text-align:center;background:var(--bg-surface);border-top:1px solid var(--border);">
+  <div class="section-inner reveal">
+    <div class="section-eyebrow">Want to be here?</div>
+    <h2 class="section-title">Start your <span>project with us</span></h2>
+    <p class="section-sub" style="margin:0 auto 2rem;">We take on new projects every month. Reach out early to lock in your slot.</p>
+    <a class="btn btn-primary" href="contact.html">Talk to Us →</a>
+  </div>
+</section>
+
+<footer id="main-footer"></footer>
+<script src="js/main.js"></script>
+<script>
+  initNav('portfolio.html');
+  initFooter();
+
+  // Filter logic
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      document.querySelectorAll('.portfolio-card').forEach(card => {
+        card.style.display = (filter === 'all' || card.dataset.category === filter) ? 'block' : 'none';
+      });
+    });
+  });
+</script>
+</body>
+</html>
